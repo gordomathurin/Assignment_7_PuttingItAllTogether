@@ -6,7 +6,7 @@ class StudentRegistryTest {
 
    StudentRegistry studentRegistry = new StudentRegistry();
 
-   @Test
+
     @org.junit.jupiter.api.Test
      public void addStudent() {
        studentRegistry.addStudent("Black Panther");
@@ -16,7 +16,6 @@ class StudentRegistryTest {
        assertEquals(studentRegistry.getHowManyStudentsInRegistry(),4);
     }
 
-    @Test
     @org.junit.jupiter.api.Test
    public void removeStudent() {
         studentRegistry.addStudent("Black Panther");
@@ -26,13 +25,11 @@ class StudentRegistryTest {
 
     }
 
-    @Test
     @org.junit.jupiter.api.Test
     public void removeAllStudents() {
        studentRegistry.removeAllStudents();
     }
 
-    @Test
     @org.junit.jupiter.api.Test
     public void getHowManyStudentsInRegistry() {
         studentRegistry.addStudent("Black Panther");
