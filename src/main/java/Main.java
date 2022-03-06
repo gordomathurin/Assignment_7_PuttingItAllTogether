@@ -9,16 +9,16 @@ public class Main {
         studentRegistry.addStudent("test");
         studentRegistry.addStudent("case");
 
-        System.out.println("first session: " + studentRegistry);
+        System.out.println("Added students to list: " + studentRegistry);
 
         studentRegistry.removeStudent("gordon");
-        System.out.println("remove session: " + studentRegistry.toString());
+        System.out.println("Removed student from list: " + studentRegistry.toString());
 
         studentRegistry.addStudent("gordon");
-        System.out.println("adding student session: " + studentRegistry.toString());
+        System.out.println("Added a student to list: " + studentRegistry.toString());
 
         studentRegistry.removeAllStudents();;
-        System.out.println("remove all session: " + studentRegistry.toString());
+        System.out.println("Removed all students from list: " + studentRegistry.toString());
 
         studentRegistry.addStudent("gordon");
         studentRegistry.addStudent("mathurin");
