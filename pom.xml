@@ -43,7 +43,7 @@
                             <manifest>
                                 <addClasspath>true</addClasspath>
                                 <classpathPrefix>lib/</classpathPrefix>
-                                <mainClass>com.workspace.app.App</mainClass>
+                                <mainClass>Main.java</mainClass>
                             </manifest>
                         </archive>
                     </configuration>
