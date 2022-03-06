@@ -2,7 +2,7 @@
 
 Your task is to implement, document, and demonstrate a workflow / pipeline that includes at minimum the following practices: 
 
-    Code development (Eclipse)
+    Code development (Intelij)
     Distributed version control (GitHub)
     Unit testing (JUnit)
     Build automation (Maven)
